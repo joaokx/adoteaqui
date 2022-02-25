@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+
+
+
+.navigation{
+
+    margin: 0; 
+    display: flex;
+    background:#635EF2;
+    height: 64px;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navigation a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    
+  }
+  
+
+.titulo:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+
+}
+
+.botão{
+    border-radius:0px 20px;
+    background-color:#635EF2;
+    font-family:Poppins,sans-serif;
+    width: 250px;
+   
+}
+
+a{
+    border-bottom: black;
+    
+}
+
+
+a:hover{
+    transition: all 0.3s;
+    border-color: #ff00a8;
+}
+
+
+@media (max-width:650px) {
+  .titulo{
+      display: none;
+  }
+    .brand{
+        display: none;
+    }
+    .navigation{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
